@@ -1,0 +1,85 @@
+
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-image: url("https://media.istockphoto.com/id/900416612/vector/geometric-grid-seamless-pattern.jpg?s=612x612&w=0&k=20&c=Q-jcI-sVMmUv8U-bdQ2ZjNSiIoztDRb-O8_dn7LUYzY=");
+  }
+
+
+body {
+  background: rgb(122, 241, 193);
+  max-width: 990px;
+  color: #232323;
+  margin: 0 auto;
+  
+}
+
+header {
+    background-color: azure;
+    color: rgb(122, 241, 193);
+    font-size: 18pt;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: .5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+    
+  }
+  
+  a:link, a:visited {
+    background-color:rgb(122, 241, 193);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: white;
+    color: rgb(122, 241, 193)
+    
+  }
+
+main {
+    min-height: 70vh;
+    min-width: 80vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color:rgb(103, 103, 103);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.name {
+    float: left;
+  }
+  
+  .links {
+    float: right;
+  }
+
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+  }
+
+  header, footer {
+    background: azure;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
+
